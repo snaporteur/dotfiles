@@ -7,6 +7,7 @@
     "hyprland/workspaces",
     "tray",
     "custom/lock",
+    "custom/logout",
     "custom/reboot",
     "custom/power"
   ],
@@ -32,10 +33,16 @@
     }
   },
   "custom/lock": {
-    "format": "<span color='#00FFFF'> 󰍃 </span>",
+    "format": "<span color='#00FFFF'> 󰌾 </span>",
     "on-click": "hyprlock",
     "tooltip": true,
-    "tooltip-format": "锁屏"
+    "tooltip-format": "Verrouiller"
+  },
+  "custom/logout": {
+    "format": "<span color='#FF8C00'> 󰍃 </span>",
+    "on-click": "hyprctl dispatch 'hl.dsp.exit()'",
+    "tooltip": true,
+    "tooltip-format": "Déconnexion"
   },
   "custom/reboot": {
     "format": "<span color='#FFD700'>  </span>",

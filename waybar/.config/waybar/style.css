@@ -50,6 +50,7 @@
 }
 
 #custom-reboot,
+#custom-logout,
 #bluetooth,
 #battery,
 #pulseaudio,
@@ -82,6 +83,7 @@
 #cpu:hover,
 #window:hover,
 #custom-lock:hover,
+#custom-logout:hover,
 #custom-reboot:hover,
 #custom-power:hover,
 /*#workspaces:hover,*/
