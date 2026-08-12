@@ -5,6 +5,7 @@ hl.config({
         kb_model   = "",
         kb_options = "",
         kb_rules   = "",
+	numlock_by_default = true,
 
         follow_mouse = 1,
 
@@ -25,6 +26,7 @@ hl.gesture({
 -- Example per-device config
 -- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Devices/ for more
 hl.device({
-    name        = "epic-mouse-v1",
-    sensitivity = -0.5,
+    name          = "logitech-pro-x-2-se-1",
+    sensitivity   = 0,
+    accel_profile = "flat",
 })

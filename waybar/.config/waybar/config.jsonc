@@ -5,7 +5,6 @@
   "spacing": 0,
   "modules-left": [
     "hyprland/workspaces",
-    "tray",
     "custom/lock",
     "custom/logout",
     "custom/reboot",
@@ -13,6 +12,7 @@
   ],
   "modules-center": ["clock"],
   "modules-right": [
+    "tray",
     "network",
     "pulseaudio"
   ],
@@ -22,13 +22,14 @@
     "format": "{icon}",
     "on-click": "activate",
     "persistent-workspaces": {
-    "*":[1,2,3,4]
+    "*":[1,2,3,4,5]
     },
     "format-icons": {
       "1": "",
       "2": "󰊯",
       "3": "󰨞",
-      "4": "󰊗",
+      "4": "",
+      "5": "󰊗",
       "default": ""
     }
   },
