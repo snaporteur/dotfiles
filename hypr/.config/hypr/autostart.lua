@@ -6,7 +6,11 @@ local programs = require("programs")
 -- Or execute your favorite apps at launch like this:
 --
 hl.on("hyprland.start", function ()
-  hl.exec_cmd(programs.terminal)
-  hl.exec_cmd("waybar")
-  hl.exec_cmd("systemctl --user start xdg-desktop-portal-hyprland.service")
+    hl.exec_cmd(programs.terminal)
+    hl.exec_cmd("waybar")
+    hl.exec_cmd("systemctl --user start xdg-desktop-portal-hyprland.service")
+    hl.exec_cmd(programs.browser_exe)
+    if programs.discord_installed then
+        hl.exec_cmd(programs.discord_exe)
+    end
 end)

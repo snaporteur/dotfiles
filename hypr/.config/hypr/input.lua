@@ -30,3 +30,15 @@ hl.device({
     sensitivity   = 0,
     accel_profile = "flat",
 })
+
+hl.device({
+    name          = "logitech-pro-x-2-1",
+    sensitivity   = 0,
+    accel_profile = "flat",
+})
+
+hl.device({
+    name          = "logitech-pro-x-2-2",
+    sensitivity   = 0,
+    accel_profile = "flat",
+})
