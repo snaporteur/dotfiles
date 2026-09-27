@@ -110,4 +110,6 @@ function y() {
 	command rm -f -- "$tmp"
 }
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.bun/bin:$PATH"
 source "$HOME/.cargo/env"
+alias hx='helix'
